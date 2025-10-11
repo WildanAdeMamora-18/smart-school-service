@@ -1,0 +1,42 @@
+# =============================
+# GITIGNORE UNTUK PROJECT PHP
+# =============================
+
+# Folder konfigurasi sensitif
+config/config.php
+.env
+
+# Folder cache / temporary
+/vendor/
+node_modules/
+tmp/
+temp/
+cache/
+
+# File log (catatan error)
+*.log
+*.tmp
+
+# File sistem (Windows & VS Code)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# File hasil kompresi atau backup
+*.zip
+*.rar
+*.tar
+*.gz
+*.bak
+
+# Folder upload atau image user (kalau tidak mau diupload)
+images/uploads/
+uploads/
+
+# File environment XAMPP (kalau ada)
+*.ini
+
+# File personal lain
+composer.lock
+package-lock.json
