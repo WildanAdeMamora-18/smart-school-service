@@ -1,4 +1,8 @@
-<?php include '../config/config.php'; ?>
+<?php 
+include '../config/config.php';
+// include 'cek-login.php';
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="id">

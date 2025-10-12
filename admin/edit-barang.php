@@ -1,5 +1,7 @@
 <?php
 include '../config/config.php';
+// include 'cek-login.php';
+session_start();
 
 $id = $_GET['id'];
 $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM tb_sarpras WHERE id_sarpras=$id"));

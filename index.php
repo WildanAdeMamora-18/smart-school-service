@@ -19,8 +19,8 @@
         <div class="col">
           <h1 class="fw-bold mb-4">Selamat Datang di Layanan Peminjaman Sarana di SMP Negeri 19 Surabaya</h1>
           <p class="fs-5 mb-4">Smart School Service adalah layanan digital peminjaman sarana di SMP. Siswa dapat melihat ketersediaan fasilitas, mengajukan peminjaman, dan mengikuti aturan dengan lebih mudah.</p>
-          <button type="button" class="btn btn-light btn-lg fs-6 me-3">Lihat Daftar Barang</button>
-          <button type="button" class="btn btn-light btn-lg fs-6">Formulir Peminjaman Barang</button>
+          <button onclick="window.location.href='fasilitas.php'" type="button" class="btn btn-light btn-lg fs-6 me-3">Lihat Daftar Barang</button>
+          <button onclick="window.location.href='formulir-peminjaman.php'" type="button" class="btn btn-light btn-lg fs-6">Formulir Peminjaman Barang</button>
         </div>
         <div class="col d-flex justify-content-center">
           <img src="images/profil-sklh.jpg" alt="" width="550px" class="rounded">

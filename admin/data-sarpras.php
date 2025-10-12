@@ -1,10 +1,7 @@
 <?php
-session_start();
 include '../config/config.php';
-// if (!isset($_SESSION['admin'])) {
-//   header("Location: ../login.php");
-//   exit();
-// }
+// include 'cek-login.php';
+session_start();
 ?>
 
 <!DOCTYPE html>

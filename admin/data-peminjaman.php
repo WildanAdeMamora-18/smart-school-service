@@ -1,15 +1,13 @@
 <?php
 include '../config/config.php';
-// session_start();
-// if (!isset($_SESSION['admin'])) {
-//   header("Location: ../login.php");
-//   exit();
-// }
+// include 'cek-login.php';
+session_start();
+
 $result = mysqli_query($conn, "
   SELECT p.*, s.nama_sarpras 
   FROM tb_peminjaman p 
   JOIN tb_sarpras s ON p.id_sarpras = s.id_sarpras
-  ORDER BY p.id_peminjaman DESC
+  ORDER BY p.id_peminjaman ASC  
 ");
 ?>
 
@@ -40,6 +38,7 @@ $result = mysqli_query($conn, "
           <th>Barang</th>
           <th>Tgl Pinjam</th>
           <th>Tgl Kembali</th>
+          <th>Keperluan</th>
           <th>Status</th>
         </tr>
       </thead>
@@ -55,6 +54,7 @@ $result = mysqli_query($conn, "
                 <td>{$row['nama_sarpras']}</td>
                 <td>{$row['tanggal_pinjam']}</td>
                 <td>{$row['tanggal_kembali']}</td>
+                <td>{$row['keperluan']}</td>
                 <td>{$row['status']}</td>
               </tr>";
           $no++;

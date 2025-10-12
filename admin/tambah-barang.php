@@ -1,6 +1,7 @@
 <?php
-session_start();
 include '../config/config.php';
+// include 'cek-login.php';
+session_start();
 
 if (isset($_POST['simpan'])) {
   $nama = $_POST['nama'];
