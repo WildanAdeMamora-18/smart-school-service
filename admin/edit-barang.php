@@ -1,7 +1,7 @@
 <?php
-include '../config/config.php';
-// include 'cek-login.php';
 session_start();
+include '../config/config.php';
+include 'cek-login.php';
 
 $id = $_GET['id'];
 $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM tb_sarpras WHERE id_sarpras=$id"));
@@ -26,7 +26,7 @@ if (isset($_POST['update'])) {
 
 <head>
   <meta charset="UTF-8">
-  <title>Tambah Barang</title>
+  <title>Edit Barang</title>
   <link rel="stylesheet" href="style-admin.css">
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">

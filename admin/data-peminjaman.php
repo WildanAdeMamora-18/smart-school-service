@@ -1,7 +1,7 @@
 <?php
-include '../config/config.php';
-// include 'cek-login.php';
 session_start();
+include '../config/config.php';
+include 'cek-login.php';
 
 $result = mysqli_query($conn, "
   SELECT p.*, s.nama_sarpras 

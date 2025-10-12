@@ -1,7 +1,6 @@
 <?php
 include '../config/config.php';
-// include 'cek-login.php';
-session_start();
+include 'cek-login.php';
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +8,7 @@ session_start();
 
 <head>
   <meta charset="UTF-8">
-  <title>Data Peminjaman</title>
+  <title>Daftar Sarpras</title>
   <link rel="stylesheet" href="style-admin.css">
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
@@ -21,7 +20,7 @@ session_start();
 
   <div class="content mt-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <h2 class="fw-bold">Data Barang</h2>
+      <h2 class="fw-bold">Daftar Sarpras</h2>
       <a href="tambah-barang.php" class="btn btn-primary">+ Tambah Barang</a>
     </div>
 
