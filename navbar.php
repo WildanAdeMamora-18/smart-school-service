@@ -43,11 +43,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </li>
 
         <li class="nav-item">
-          <a class="nav-link custom-hover <?php echo ($current_page == 'pengaduan.php') ? 'active fw-bold text-primary' : ''; ?>"
-            href="pengaduan.php">Pengaduan</a>
-        </li>
-
-        <li class="nav-item">
           <a class="nav-link custom-hover <?php echo ($current_page == 'kontak.php') ? 'active fw-bold text-primary' : ''; ?>"
             href="kontak.php">Kontak</a>
         </li>

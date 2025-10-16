@@ -1,0 +1,12 @@
+<!-- save as icon-transparency.svg -->
+<svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Transparansi Ketersediaan">
+  <title>Transparansi Ketersediaan Barang</title>
+  <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M12 5c4 0 7 4 7 7s-3 7-7 7-7-4-7-7 3-7 7-7z"></path>
+    <circle cx="12" cy="12" r="2"></circle>
+    <rect x="3" y="3" width="5" height="4" rx="0.6"></rect>
+    <path d="M3 9h5"></path>
+    <path d="M3 11h5"></path>
+    <path d="M16 3h5v4h-5z"></path>
+  </g>
+</svg>

@@ -10,7 +10,7 @@
 
 <body>
 
-  <?php include 'navbar.php'; ?>
+  <?php include '../navbar.php'; ?>
 
   <!-- 🔹 Isi Halaman -->
   <div class="container-fluid bg-primary text-white p-5">
@@ -34,24 +34,24 @@
     <div class="row justify-content-center">
       <div class="col-4">
         <div class="text-start my-5">
-          <div class="d-flex gap-3 card-body p-4">
-            <img src="" alt="" width="80" class="border rounded">
+          <div class="d-flex gap-3 card-body p-4 border border-2 rounded-3 shadow-sm">
+            <img src="images/peminjaman.svg" alt="peminjaman" width="80">
             <p class="card-text fs-5 fw-semibold">Memudahkan Peminjaman Sarana Sekolah</p>
           </div>
         </div>
       </div>
       <div class="col-4">
         <div class="text-start my-5">
-          <div class="d-flex gap-3 card-body p-4">
-            <img src="" alt="" width="80" class="border rounded">
+          <div class="d-flex gap-3 card-body p-4 border border-2 rounded-3 shadow-sm">
+            <img src="images/efisien.svg" alt="efisien" width="75">
             <p class="card-text fs-5 fw-semibold">Menghemat Waktu Administrasi</p>
           </div>
         </div>
       </div>
       <div class="col-4">
         <div class="text-start my-5">
-          <div class="d-flex gap-3 card-body p-4">
-            <img src="" alt="" width="80" class="border rounded">
+          <div class="d-flex gap-3 card-body p-4 border border-2 rounded-3 shadow-sm">
+            <img src="images/transparansi.svg" alt="transparansi" width="80">
             <p class="card-text fs-5 fw-semibold">Transparansi Ketersediaan Barang</p>
           </div>
         </div>
@@ -79,9 +79,9 @@
         <!-- Kolom kanan -->
         <div class="col-md-6 mb-4">
           <h4 class="fw-bold mb-3">Kontak</h4>
-          <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Alamat Sekolah</p>
-          <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>0812-3456-7890</p>
-          <p class="mb-0"><i class="bi bi-envelope-fill me-2"></i>info@sekolah.sch</p>
+          <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"><img src="images/location_on_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="location"></i>Alamat Sekolah</p>
+          <p class="mb-1"><i class="bi bi-telephone-fill me-2"><img src="images/call_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="call"></i>0812-3456-7890</p>
+          <p class="mb-0"><i class="bi bi-envelope-fill me-2"><img src="images/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="email"></i>info@sekolah.sch</p>
         </div>
       </div>
 

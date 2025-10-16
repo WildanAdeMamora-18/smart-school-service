@@ -1,22 +1,31 @@
-<?php 
+<?php
+include 'auth.php';
 include '../config/config.php';
-include 'cek-login.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <title>Dashboard Admin - Smart School Service</title>
   <link rel="stylesheet" href="style-admin.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link href="../siswa/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../siswa/style.css">
 </head>
 
 <body>
   <?php include 'sidebar.php'; ?>
 
   <div class="content mt-4">
+
+    <?php if (isset($_GET['success'])): ?>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Login berhasil!</strong> Selamat datang, <?= $_SESSION['username']; ?>.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <?php endif; ?>
+
     <h2 class="fw-bold">Dashboard Smart School Service</h2>
 
     <div class="row mt-4">
@@ -41,4 +50,5 @@ include 'cek-login.php';
     </div>
   </div>
 </body>
+
 </html>

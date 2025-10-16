@@ -1,6 +1,6 @@
 <?php
+include 'auth.php';
 include '../config/config.php';
-include 'cek-login.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +10,8 @@ include 'cek-login.php';
   <meta charset="UTF-8">
   <title>Daftar Sarpras</title>
   <link rel="stylesheet" href="style-admin.css">
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link href="../siswa/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../siswa/style.css">
 </head>
 
 <body>

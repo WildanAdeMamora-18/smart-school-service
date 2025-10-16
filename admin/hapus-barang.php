@@ -1,7 +1,6 @@
 <?php
-session_start();
+include 'auth.php';
 include '../config/config.php';
-include 'cek-login.php';
 
 $id = $_GET['id'];
 $query = mysqli_query($conn, "DELETE FROM tb_sarpras WHERE id_sarpras=$id");

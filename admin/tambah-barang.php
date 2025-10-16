@@ -1,7 +1,6 @@
 <?php
-session_start();
+include 'auth.php';
 include '../config/config.php';
-include 'cek-login.php';
 
 if (isset($_POST['simpan'])) {
   $nama = $_POST['nama'];
@@ -25,8 +24,8 @@ if (isset($_POST['simpan'])) {
   <meta charset="UTF-8">
   <title>Tambah Barang</title>
   <link rel="stylesheet" href="style-admin.css">
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link href="../siswa/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../siswa/style.css">
 </head>
 
 <body>

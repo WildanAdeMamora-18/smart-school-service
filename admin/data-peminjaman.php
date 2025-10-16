@@ -1,7 +1,6 @@
 <?php
-session_start();
+include 'auth.php';
 include '../config/config.php';
-include 'cek-login.php';
 
 $result = mysqli_query($conn, "
   SELECT p.*, s.nama_sarpras 
@@ -18,8 +17,8 @@ $result = mysqli_query($conn, "
   <meta charset="UTF-8">
   <title>Data Peminjaman</title>
   <link rel="stylesheet" href="style-admin.css">
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css">
+  <link href="../siswa/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../siswa/style.css">
 </head>
 
 <body>
@@ -63,7 +62,5 @@ $result = mysqli_query($conn, "
       </tbody>
     </table>
   </div>
-
 </body>
-
 </html>

@@ -8,7 +8,8 @@ include 'config/config.php';
 <head>
   <meta charset="UTF-8">
   <title>Login Admin</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="siswa/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="siswa/style.css">
 </head>
 <body class="bg-light">
 
@@ -39,6 +40,5 @@ include 'config/config.php';
     </div>
   </div>
 </div>
-
 </body>
 </html>

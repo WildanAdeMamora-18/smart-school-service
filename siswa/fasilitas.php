@@ -1,4 +1,4 @@
-<?php include "config/config.php"; ?>
+<?php include "../config/config.php"; ?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -11,7 +11,7 @@
 
 <body>
 
-    <?php include 'navbar.php'; ?>
+    <?php include '../navbar.php'; ?>
 
   <!-- 🔹 Isi Halaman -->
   <div class="container mt-4">
@@ -29,7 +29,6 @@
                 <th scope="col">Jumlah Total</th>
                 <th scope="col">Jumlah Tersedia</th>
                 <th scope="col">Kondisi</th>
-                <th scope="col">Keterangan</th>
               </tr>
             </thead>
             <tbody>
@@ -43,7 +42,6 @@
                         <td>{$row['jumlah_total']}</td>
                         <td>{$row['jumlah_tersedia']}</td>
                         <td>{$row['kondisi']}</td>
-                        <td>{$row['keterangan']}</td>
                       </tr>";
                 $no++;
               }
