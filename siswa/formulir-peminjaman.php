@@ -50,6 +50,10 @@ $barang = mysqli_query($conn, "SELECT * FROM tb_sarpras WHERE jumlah_tersedia > 
               </select>
             </div>
             <div class="mb-3">
+              <label for="jumlah_pinjam" class="form-label">Jumlah Barang yang Ingin Dipinjam</label>
+              <input type="number" class="form-control" id="jumlah_pinjam" name="jumlah_pinjam" min="1" required>
+            </div>
+            <div class="mb-3">
               <label for="tanggal_pinjam" class="form-label">Tanggal Pinjam</label>
               <input type="date" class="form-control" id="tanggal_pinjam" name="tanggal_pinjam" required>
             </div>
