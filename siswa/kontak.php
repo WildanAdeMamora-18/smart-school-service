@@ -30,7 +30,6 @@ include '../config/config.php';
           <div class="card-body text-center">
             <img src="images/person_24dp_007BFF_FILL1_wght400_GRAD0_opsz24.svg" alt="Admin" class="rounded-circle mb-3" width="100" height="100">
             <h5 class="card-title text-primary fw-bold">Admin Sekolah</h5>
-            <p class="mb-1"><strong>Email:</strong> admin@sarana-sekolah.com</p>
             <p><strong>Telepon:</strong> +62 838-5450-0947</p>
             <a href="https://wa.me/6283854500947" target="_blank" class="btn btn-success btn-sm">
               <i class="bi bi-whatsapp"></i> Chat WhatsApp
@@ -45,7 +44,6 @@ include '../config/config.php';
           <div class="card-body text-center">
             <img src="images/person_24dp_007BFF_FILL1_wght400_GRAD0_opsz24.svg" alt="Wildan Ade Mamora" class="rounded-circle mb-3" width="100" height="100">
             <h5 class="card-title text-primary fw-bold">Sheila Aulia</h5>
-            <p class="mb-1"><strong>Email:</strong> sheila@example.com</p>
             <p><strong>Telepon:</strong> +62 853-3473-5950</p>
             <a href="https://wa.me/6285334735950" target="_blank" class="btn btn-success btn-sm">
               <i class="bi bi-whatsapp"></i> Chat WhatsApp
